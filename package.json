@@ -1,0 +1,29 @@
+{
+  "name": "machinepack-bitly",
+  "version": "0.1.0",
+  "description": "Work with the bitly API ",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha -b"
+  },
+  "keywords": [
+    "Bitly",
+    "machines",
+    "machinepack"
+  ],
+  "author": "Scott Gress <sgress454@treeline.io>",
+  "license": "MIT",
+  "dependencies": {
+    "machine": "^1.1.0",
+    "node-bitlyapi": "^0.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  },
+  "machinepack": {
+    "friendlyName": "Bitly",
+    "machineDir": "machines/",
+    "machines": [
+      "shorten-link"
+    ]
+  }
+}
