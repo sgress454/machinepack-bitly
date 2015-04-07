@@ -54,6 +54,7 @@ module.exports = {
 
     success: {
       description: 'Done.',
+      example: 'http://bit.ly/abc123'
     },
 
   },
