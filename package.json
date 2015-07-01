@@ -13,11 +13,12 @@
   "author": "Scott Gress <sgress454@treeline.io>",
   "license": "MIT",
   "dependencies": {
-    "machine": "^1.1.0",
+    "machine": "^10.3.1",
     "node-bitlyapi": "^0.4.0"
   },
   "devDependencies": {
-    "mocha": "^2.1.0"
+    "mocha": "^2.1.0",
+    "test-machinepack-mocha": "^2.1.1"
   },
   "machinepack": {
     "friendlyName": "Bitly",
